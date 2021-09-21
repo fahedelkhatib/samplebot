@@ -13,6 +13,6 @@ client.once('ready', () => {
 // Login to Discord with your client's token
 
 //let buff = new Buffer(data);
-//let base64data = buff.toString('base64');
-let token = Buffer.from(inputString, 'base64').toString('ascii');
+let base64data = "Ee9pHHPADbOmidkdVlCgHRhCqgzH3Q_x";
+let token = Buffer.from(base64data, 'base64').toString('ascii');
 client.login(token);
